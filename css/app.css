@@ -1,0 +1,9 @@
+body {
+	color: blue;
+	background-color: pink;
+	font-family: "Arial", "Apple Garamond", "Ubuntu";
+	font-size: 16px;
+}
+p {
+	text-align: center;
+}
