@@ -1,4 +1,20 @@
-div > p{
+div > p {
 	font-style: italic;
 	color: #006600;
+}
+div > h1 {
+	font-weight: bold;
+}
+
+a {
+	text-decoration: underline;
+}
+
+a:hover, a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color: red;
 }
