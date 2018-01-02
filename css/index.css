@@ -6,10 +6,6 @@ div > h1 {
 	font-weight: bold;
 }
 
-a {
-	text-decoration: underline;
-}
-
 a:hover, a:visited {
 	text-decoration: none;
 	color: inherit;
