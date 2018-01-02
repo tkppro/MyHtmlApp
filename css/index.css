@@ -6,11 +6,3 @@ div > h1 {
 	font-weight: bold;
 }
 
-a:hover, a:visited {
-	text-decoration: none;
-	color: inherit;
-}
-
-a:hover {
-	color: red;
-}

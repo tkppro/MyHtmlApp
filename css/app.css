@@ -12,3 +12,12 @@ p {
 a {
 	text-decoration: underline;
 }
+
+a:hover, a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color: red;
+}
