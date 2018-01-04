@@ -1,8 +1,39 @@
 div > p {
 	font-style: italic;
-	color: #006600;
+	color: #6600cc;
 }
 div > h1 {
 	font-weight: bold;
+}
+#eminem {
+	background-color: #996633;
+}
+#steve-jobs {
+	background-color: #5c8a8a;
+}
+#jack-ma {
+	background-color: #bf80ff;
+}
+#lee-sang-hyeok {
+	background-color: #4dff88;
+}
+div.people {
+	border-bottom: 3px solid currentColor;
+	padding: 10px;
+	margin: 19px 0 19px 0;
+	overflow: auto;
+}
+audio, video {
+	width: 100%;
+}
+div.name {
+	width: 28%;
+	float: left;
+	padding-right: 2px;
+}
+div.biography {
+	width: 70%;
+	float: left;
+	padding-left: 2px;
 }
 
