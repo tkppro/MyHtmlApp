@@ -1,6 +1,6 @@
 div > p {
 	font-style: italic;
-	color: #6600cc;
+	color: #003300;
 }
 div > h1 {
 	font-weight: bold;
@@ -27,13 +27,13 @@ audio, video {
 	width: 100%;
 }
 div.name {
-	width: 28%;
+	width: 20%;
 	float: left;
 	padding-right: 2px;
 }
 div.biography {
 	width: 70%;
-	float: left;
+	float: right;
 	padding-left: 2px;
 }
 

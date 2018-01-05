@@ -62,9 +62,13 @@ img {
 		width:400px;
 	}
 }
-
-@media screen and (min-width: 400) {
+@media screen and (max-width: 1400px) {
+	#img-eminem {
+		content: url("../images/eminem_image.jpg");
+	}
+}@media screen and (min-width: 400px) {
 	#img-eminem {
 		content: url("../images/eminem_small.jpeg");
 	}
 }
+
