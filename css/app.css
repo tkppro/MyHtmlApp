@@ -64,11 +64,36 @@ img {
 }
 @media screen and (max-width: 1400px) {
 	#img-eminem {
+		content: url("../images/eminem_small.jpeg");
+	}
+	#img-steve-jobs {
+		content: url("../images/steve_jobs_small.jpg");
+	}
+	#img-jack-ma {
+		content: url("../images/jackma_small.jpg");
+	}
+	#img-faker {
+		content: url("../images/faker_small.jpeg");
+	}
+	figcaption {
+		font-size: 13px;
+	}
+}
+@media screen and (min-width: 400px) {
+	#img-eminem {
 		content: url("../images/eminem_image.jpg");
 	}
-}@media screen and (min-width: 400px) {
-	#img-eminem {
-		content: url("../images/eminem_small.jpeg");
+	#img-steve-jobs {
+		content: url("../images/steve_jobs_image.jpg");
+	}
+	#img-jack-ma {
+		content: url("../images/jackma_image.jpg");
+	}
+	#img-faker {
+		content: url("../images/faker_image.jpg");
+	}
+	figcaption {
+		font-size: 20px;
 	}
 }
 
