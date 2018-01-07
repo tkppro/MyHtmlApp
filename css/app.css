@@ -35,7 +35,7 @@ a:hover {
 }
 figure {
 	border: 1px solid black;
-	width: 100%
+	width: 70%;
 	padding: 10px;
 	margin:0;
 }
@@ -47,21 +47,18 @@ img {
 	width: 100%;
 	max-width: 100%;
 }
-@media screen and(min-width: 480px) {
-	figure {
-		width:70px;
-	}
-}
-@media screen and(min-width: 600px) {
-	figure {
-		width:120px;
-	}
-}
+
 @media screen and(max-width: 1400px) {
 	figure {
-		width:400px;
+		width:40px;
 	}
 }
+@media screen and(min-width: 400px) {
+	figure {
+		width:290px;
+	}
+}
+
 @media screen and (max-width: 1400px) {
 	#img-eminem {
 		content: url("../images/eminem_small.jpeg");
@@ -70,13 +67,13 @@ img {
 		content: url("../images/steve_jobs_small.jpg");
 	}
 	#img-jack-ma {
-		content: url("../images/jackma_small.jpg");
+		content: url("../images/jack_ma_small.jpg");
 	}
 	#img-faker {
 		content: url("../images/faker_small.jpeg");
 	}
 	figcaption {
-		font-size: 13px;
+		font-size: 10px;
 	}
 }
 @media screen and (min-width: 400px) {
@@ -87,13 +84,13 @@ img {
 		content: url("../images/steve_jobs_image.jpg");
 	}
 	#img-jack-ma {
-		content: url("../images/jackma_image.jpg");
+		content: url("../images/jack_ma_image.jpg");
 	}
 	#img-faker {
 		content: url("../images/faker_image.jpg");
 	}
 	figcaption {
-		font-size: 20px;
+		font-size: 15px;
 	}
 }
 
