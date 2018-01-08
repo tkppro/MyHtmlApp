@@ -2,7 +2,6 @@ body {
 	color: blue;
 	background-color: pink;
 	font-family: "Arial", "Apple Garamond", "Ubuntu";
-	font-size: 16px;
 }
 
 p {
@@ -35,7 +34,7 @@ a:hover {
 }
 figure {
 	border: 1px solid black;
-	width: 70%;
+	
 	padding: 10px;
 	margin:0;
 }
@@ -48,9 +47,9 @@ img {
 	max-width: 100%;
 }
 
-@media screen and(max-width: 1400px) {
+@media screen and(min-width: 800px) {
 	figure {
-		width:40px;
+		width:580px;
 	}
 }
 @media screen and(min-width: 400px) {

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"> 
 		<link rel="stylesheet" type="text/css" href="css/app.css">
 		<link rel="stylesheet" type="text/css" href="css/index.css"> 
 		<meta charset="UTF-8">
@@ -24,7 +25,7 @@
 			</p>	
 		</div>
 
-		<ul>
+		<ul id="people-menu">
 			<li>
 				<a href="#eminem">Eminem</a>
 			</li>
@@ -42,7 +43,7 @@
 			</li>
 		</ul>
 
-		<div id="eminem" class="people">	
+		<div id="eminem" class="people hidden">	
 			<div class="name">
 				<h2>Eminem</h2>
 				<figure>
@@ -74,7 +75,7 @@
 			</div>
 		</div>
 
-		<div id="steve-jobs" class="people">	
+		<div id="steve-jobs" class="people hidden">	
 			<div class="name">
 				<h2>Steve Jobs</h2>
 				<figure>
@@ -112,7 +113,7 @@
 			
 		</div>				
 
-		<div id="jack-ma" class="people">	
+		<div id="jack-ma" class="people hidden">	
 			<div class="name">
 				<h2>Jack Ma</h2>
 				<figure>
@@ -145,7 +146,7 @@
 			</div>			
 		</div>	
 			
-		<div id="lee-sang-hyeok" class="people">
+		<div id="lee-sang-hyeok" class="people hidden">
 			<div class="name">
 				<h2>Lee Sang-hyeok</h2>
 				<figure>
@@ -177,5 +178,6 @@
 				</p>
 			</div>
 		</div>
+		<script type="text/javascript" src="scripts/index.js"></script>
 	</body>
 </html>
