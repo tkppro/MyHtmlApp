@@ -12,7 +12,10 @@ th {
 
 td {
     color: #9933ff;
-    background-color: #000;
+    background-color: #66ff66;
 }
 
+table {
+	width: 100%;
+}
 
