@@ -4,6 +4,7 @@
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"> 
 		<link rel="stylesheet" type="text/css" href="css/app.css">
 		<link rel="stylesheet" type="text/css" href="css/index.css"> 
+		<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 		<meta charset="UTF-8">
 		<title> My First Html </title>
 	</head>
@@ -24,25 +25,44 @@
 				Xem thêm thông tin về học vấn trong quá khứ của tôi (My background) tại <a href="studies.html">đây</a>.
 			</p>	
 		</div>
-
-		<ul id="people-menu">
-			<li>
-				<a href="#eminem">Eminem</a>
-			</li>
-
-			<li>
-				<a href="#steve-jobs">Steve Jobs</a>
-			</li>
-
-			<li>
-				<a href="#jack-ma">Jack Ma</a>
-			</li>
-
-			<li>
-				<a href="#lee-sang-hyeok">Lee Sang-hyeok</a>
-			</li>
-		</ul>
-
+		<div class="row">
+			<div class="col-md-3 col-sm-6">
+				<button type="button" id="button-eminem" class="btn btn-default button-people">Eminem</button>	
+				<a href="#eminem" id="anchor-eminem" 
+					class="btn btn-primary hidden"
+					data-toggle="tooltip" data-placement="right" title="Get directly to biography">
+					<i class="fa fa-fast-forward fa-rotate-90" aria-hidden="true"></i>
+				</a>
+			</div>
+		
+		<div>
+			<div class="col-md-3 col-sm-6">
+				<button type="button" id="button-steve-jobs" class="btn btn-default button-people">Steve Jobs</button>	
+				<a href="#steve-jobs" id="anchor-steve-jobs" class="btn btn-warning hidden"
+				data-toggle="tooltip" data-placement="right" title="Get directly to biography">
+					<i class="fa fa-fast-forward fa-rotate-90" aria-hidden="true"></i>
+				</a>
+			</div>
+		</div>
+		<div>
+			<div class="col-md-3 col-sm-6">
+				<button type="button" id="button-jack-ma" class="btn btn-default button-people">Jack Ma</button>	
+				<a href="#jack-ma" id="anchor-jack-ma" class="btn btn-danger hidden"
+				data-toggle="tooltip" data-placement="right" title="Get directly to biography">
+					<i class="fa fa-fast-forward fa-rotate-90" aria-hidden="true"></i>
+				</a>
+			</div>
+		</div>
+		<div>
+			<div class="col-md-3 col-sm-6">
+				<button type="button" id="button-faker" class="btn btn-default button-people">Lee Sang-hyeok</button>
+				<a href="#faker" id="anchor-faker" class="btn btn-success hidden"
+				data-toggle="tooltip" data-placement="right" title="Get directly to biography">
+					<i class="fa fa-fast-forward fa-rotate-90" aria-hidden="true"></i>
+				</a>
+			</div>
+		</div>
+		</div>		
 		<div id="eminem" class="people hidden">	
 			<div class="name">
 				<h2>Eminem</h2>
@@ -146,7 +166,7 @@
 			</div>			
 		</div>	
 			
-		<div id="lee-sang-hyeok" class="people hidden">
+		<div id="faker" class="people hidden">
 			<div class="name">
 				<h2>Lee Sang-hyeok</h2>
 				<figure>
@@ -178,6 +198,8 @@
 				</p>
 			</div>
 		</div>
-		<script type="text/javascript" src="scripts/index.js"></script>
+		<script type="text/javascript" src="scripts/jquery-scripts/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="scripts/jquery-scripts/index.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 	</body>
 </html>

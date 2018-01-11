@@ -14,8 +14,8 @@ div > h1 {
 #jack-ma {
 	background-color: #bf80ff;
 }
-#lee-sang-hyeok {
-	background-color: #4dff88;
+#faker {
+	background-color: #00b300;
 }
 div.people {
 	border-bottom: 3px solid currentColor;
@@ -37,3 +37,6 @@ div.biography {
 	padding-left: 2px;
 }
 
+.button-people {
+	width: 140px;
+}
