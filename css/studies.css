@@ -5,17 +5,52 @@ th, td
 	margin: 5px;
 }
 
-th {
-   	color: #ff4d4d;
-    background-color: #fff;
-}
-
-td {
-    color: #9933ff;
-    background-color: #66ff66;
-}
-
 table {
 	width: 100%;
+	padding:20px;
+	margin-top:50px;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+@media screen and (max-width: 400px){
+    ul.topnav li.left, 
+    ul.topnav li {float: none;}
+
+}
+
+tbody tr:nth-child(odd) {
+  background:#85adad;
+}
+.table-hover tbody tr:hover td {
+    background: aqua;
+}
